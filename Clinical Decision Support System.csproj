@@ -67,10 +67,111 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="AdminDoctorUpdate.aspx" />
+    <Content Include="AdminForm.aspx" />
+    <Content Include="AdminUpdateDetails.aspx" />
+    <Content Include="App_Data\CDSSDatabase.mdf" />
+    <Content Include="App_Data\CDSSDatabase_log.ldf">
+      <DependentUpon>CDSSDatabase.mdf</DependentUpon>
+    </Content>
+    <Content Include="Cdss pic.jpeg" />
+    <Content Include="clinical-decision-support-system-l.jpg" />
+    <Content Include="DoctorForm.aspx" />
+    <Content Include="fdfd.jpeg" />
+    <Content Include="lklk.jpeg" />
+    <Content Include="lklk6.jpeg" />
+    <Content Include="LogInForm.aspx" />
+    <Content Include="new.jpeg" />
+    <Content Include="PatientForm.aspx" />
+    <Content Include="popo.jpg" />
+    <Content Include="SeePatientForm.aspx" />
+    <Content Include="SetAppointmentForm.aspx" />
+    <Content Include="SignUpForm.aspx" />
+    <Content Include="TreatmentForm.aspx" />
+    <Content Include="uyuyuy.jpg" />
     <Content Include="Web.config" />
+    <Content Include="WelcomeForm.aspx" />
+    <Content Include="WhatsApp Image 2024-08-15 at 15.30.32.jpeg" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AdminDoctorUpdate.aspx.cs">
+      <DependentUpon>AdminDoctorUpdate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminDoctorUpdate.aspx.designer.cs">
+      <DependentUpon>AdminDoctorUpdate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminForm.aspx.cs">
+      <DependentUpon>AdminForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminForm.aspx.designer.cs">
+      <DependentUpon>AdminForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminUpdateDetails.aspx.cs">
+      <DependentUpon>AdminUpdateDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminUpdateDetails.aspx.designer.cs">
+      <DependentUpon>AdminUpdateDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DoctorForm.aspx.cs">
+      <DependentUpon>DoctorForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DoctorForm.aspx.designer.cs">
+      <DependentUpon>DoctorForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="LogInForm.aspx.cs">
+      <DependentUpon>LogInForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="LogInForm.aspx.designer.cs">
+      <DependentUpon>LogInForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PatientForm.aspx.cs">
+      <DependentUpon>PatientForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PatientForm.aspx.designer.cs">
+      <DependentUpon>PatientForm.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeePatientForm.aspx.cs">
+      <DependentUpon>SeePatientForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SeePatientForm.aspx.designer.cs">
+      <DependentUpon>SeePatientForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SetAppointmentForm.aspx.cs">
+      <DependentUpon>SetAppointmentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SetAppointmentForm.aspx.designer.cs">
+      <DependentUpon>SetAppointmentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SignUpForm.aspx.cs">
+      <DependentUpon>SignUpForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SignUpForm.aspx.designer.cs">
+      <DependentUpon>SignUpForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TreatmentForm.aspx.cs">
+      <DependentUpon>TreatmentForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TreatmentForm.aspx.designer.cs">
+      <DependentUpon>TreatmentForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="WelcomeForm.aspx.cs">
+      <DependentUpon>WelcomeForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WelcomeForm.aspx.designer.cs">
+      <DependentUpon>WelcomeForm.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
