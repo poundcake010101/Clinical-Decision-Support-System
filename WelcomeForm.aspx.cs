@@ -4,15 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-/*Group Members
-•	SSS MNGUNI(lEARDER)            40987167                          
-•	R MOTSWANA                     37219626       
-•	LS MAVHUNGU                    44418450     
-•	DE MASANGO                     41833325          
-•	TM MASHALANE                   37771779 
-•	ZE NGHONDZWENI                 38178877
-•   LTJ NHLAPHO                    39013219            
- */
+
 namespace Clinical_Decision_Support_System
 {
     public partial class WelcomeForm : System.Web.UI.Page
